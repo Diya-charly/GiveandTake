@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="./css/slider.css" />
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Give & Take</title>
+    <script type="text/JavaScript">
+
+      function killCopy(e){
+      return false
+      }
+
+      function reEnable(){
+      return true
+      }
+      document.onselectstart=new Function ("return false")
+      if (window.sidebar){
+      document.onmousedown=killCopy
+      document.onclick=reEnable
+      }
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <div class="overlay"></div>
+
+       
+      </div>
+
+      <div class="nav-bar">
+        <ul>
+          <div class="logo">
+            <img id="logo-photo" src="./images/utensil.png" alt="utensils" />
+            <h1 class="GT">GT</h1>
+           
+          </div>
+
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="aboutus.html">ORDER</a></li>
+          <li><a href="services.html">SERVICE</a></li>
+          <li><a href="login_page.html" id="LOG">LOGIN</a></li>
+          
+          
+        </ul>
+      </div>
+      <div class="text-upper">Delicious food delivery </div>
+      <div class="text-lower"> the best quality and tasty meals.</div>
+    </div>
+
+    <div class="col-container">
+      <div class="left-part">
+        <h3 class="about-us">About Us...</h3>
+        <br />
+        <h2 class="welcome">
+          Welcome to
+          <img class="img-utensil" src="./images/utensil.png" /> Give & Take
+        </h2>
+        <br />
+        <p class="message">
+          "Welcome to GiveTake! We connect people who want to share their 
+          leftover food with those in need. Join our community to help reduce 
+          food waste and ensure that every meal has a purpose. Whether you're 
+          giving or receiving, together we can make a difference!"
+        </p>
+      </div>
+
+
+          <!-- <button class="booking-btn1">Read More</button> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="img-container">
+      <div class="slider">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+      </div>
+    </div>
+    <div id="test"></div>
+
+   
+
+     
+
+      
+
+     
+    <!-- <div class="reservation-video-container">
+            <div class="video-part">
+                <video width="100%" height="100%" controls>
+                    <source src="./images/video2.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video>
+
+                  <img src="./images/Designer.png" alt="" class="img-video-part">
+            </div>
+            <div class="reservation-part">
+                <div class="heading-part">Reservation</div>
+                <div class="book-a-table">Book A Table Online</div>
+                <form>
+                  <input type="text" id="name" name="name" class="center-placeholder" placeholder="Your Name:"><br>
+                  <input type="datetime-local" id="date-time" name="date-time" class="center-placeholder" placeholder="Date & Time:"><br>
+                  <textarea id="special-request" name="special-request" class="center-placeholder" placeholder="Special Request:"></textarea><br>
+                  <input type="email" id="email" name="email" class="center-placeholder" placeholder="Your Email:"><br>
+                  <label id="no-of-people-label" for="no-of-people">No Of People:</label><br>
+                  <select id="no-of-people" name="no-of-people" class="center-placeholder">
+                
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select><br>
+                    <button class="booking-btn3">BOOK NOW</button>
+                </form>
+    
+    
+            </div>
+        </div> -->
+
+    
+
+        
+
+       
+
+    
+      <!-- Swiper navigation buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <div class="outer-footer-part">
+      <div class="footer-part">
+        <div class="company-section">
+          <div class="heading-part">Company</div>
+          <div class="inside-text">
+            <a href="aboutus.html"><span>About Us</span></a>
+            <a href="contact.html"><span>Contact Us</span></a>
+            
+            <span>Privacy Policy</span>
+            <span>Terms & condition</span>
+          </div>
+        </div>
+        <div class="contact-section">
+          <div class="heading-part">Contact</div>
+          <div class="inside-text">
+            <div class="inside-text-part">
+              <i class="fa-solid fa-location-dot"></i>
+              
+            </div>
+
+            <div class="inside-text-part">
+              <i class="fa-solid fa-phone"></i>
+              <span>+8103741454</span>
+            </div>
+
+            <div class="inside-text-part">
+              <i class="fa-solid fa-envelope"></i>
+              
+            </div>
+
+            <div class="social-media">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-youtube"></i>
+            </div>
+          </div>
+        </div>
+        
+        <div class="newsletter-section">
+          <div class="heading-part">Newsletter</div>
+
+          <div class="login-screen">
+            <input type="email" id="email" value="Your email" />
+            <button class="booking-btn2">SIGN UP</button>
+          </div>
+        </div>
+      </div>
+      <
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+      function rotate() {
+        var lastChild = $(".slider div:last-child").clone();
+        /*$('#test').html(lastChild)*/
+        $(".slider div").removeClass("firstSlide");
+        $(".slider div:last-child").remove();
+        $(".slider").prepend(lastChild);
+        $(lastChild).addClass("firstSlide");
+      }
+
+      window.setInterval(function () {
+        rotate();
+      }, 4000);
+    </script>
+
+    <script src="./JS/index.js"></script>
+    <script src="./JS/swiper-bundle.min.js"></script>
+    <script src="./JS/slider.js"></script>
+  </body>
+</html>

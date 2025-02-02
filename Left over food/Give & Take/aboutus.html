@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="./css/aboutus.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="overlay"></div>
+        </div>
+
+        <div class="text-upper"> ORDER</div>
+        <div class="nav-bar">
+           
+            <ul>
+                <div class="logo">
+                    <!-- <i class="fa fa-cutlery" aria-hidden="true"></i> -->
+                    <img id="logo-photo" src="./images/utensil.png" alt="utensils">
+                    <h2 class="GT">GT</h2>
+                </div>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutus.html">ORDER</a></li>
+                <li><a href="services.html">SERVICE</a></li>
+                <li><a href="login_page.html" id="LOG">LOGIN</a></li>
+              </ul>
+        </div>
+
+    </div>
+
+
+
+    <div class="col-container">
+
+        <body>
+            <header>
+                <h1>Food Menu</h1>
+                <p>Explore our delicious dishes!</p>
+            </header>
+            <main>
+                <section id="order">
+                    
+                    <!-- Search Bar -->
+                    <div class="search-bar">
+                        <input type="text" id="search-input" placeholder="Search for food...">
+                        <button id="search-button">Search</button>
+                    </div>
+        
+                    <!-- Food Options -->
+                    <div class="food-options">
+                        <div class="food-item" data-food="Pizza" data-restaurants="Domino's, Pizza Hut, Local Pizzeria">
+                            <h3>Pizza</h3>
+                            <p>Delicious cheese pizza with fresh toppings.</p>
+                        </div>
+                        <div class="food-item" data-food="Burger" data-restaurants="McDonald's, Burger King, Local Burger Joint">
+                            <h3>Burger</h3>
+                            <p>Juicy beef burger with lettuce, tomato, and cheese.</p>
+                        </div>
+                        <div class="food-item" data-food="Pasta" data-restaurants="Olive Garden, Local Italian Restaurant">
+                            <h3>Pasta</h3>
+                            <p>Creamy Alfredo pasta with garlic bread.</p>
+                        </div>
+                        <div class="food-item" data-food="Sushi" data-restaurants="Sushi Palace, Local Japanese Restaurant">
+                            <h3>Sushi</h3>
+                            <p>Assorted sushi rolls with soy sauce and wasabi.</p>
+                        </div>
+                        <div class="food-item" data-food="Taco" data-restaurants="Taco Bell, Local Mexican Restaurant">
+                            <h3>Taco</h3>
+                            <p>Spicy beef tacos with salsa and guacamole.</p>
+                        </div>
+                        <div class="food-item" data-food="Biriyani" data-restaurants="Olive Garden, House of Biriyani">
+                            <h3>Biriyani</h3>
+                            <p>Enjoy delicious biriyani.</p>
+                        </div>
+                    </div>
+                </section>
+            </main>
+        
+            <!-- Popup for Restaurants -->
+            <div id="restaurant-popup" class="popup">
+                <div class="popup-content">
+                    <span class="close-popup">&times;</span>
+                    <h2 id="popup-title"></h2>
+                    <ul id="restaurant-list"></ul>
+                </div>
+            </div>
+        
+            
+        
+        
+    
+
+        
+
+     
+           
+       
+
+<script src="./JS/aboutus.js"></script>
+    
+</body>
+</html>
