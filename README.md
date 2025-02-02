@@ -44,11 +44,10 @@ For Software:
 # Screenshots (Add at least 3)
 ![Screenshot1](./1.png)
 *Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
+![Screenshot2](./2.png)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3](./3.png)
 *Add caption explaining what this shows*
 
 # Diagrams
@@ -79,15 +78,14 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/file/d/1MQCX1jbIm37mdEj01o4zWSkGmoFhVQOY/view?usp=sharing
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
+- Diya Saira Charly: [Coding and web development
+- Aleta Johnson: Problem statement and presentation
 - [Name 3]: [Specific contributions]
 
 ---
